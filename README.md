@@ -74,6 +74,10 @@ CI runs the suite twice: `test` against the Idle Hours commit pinned in `pyproje
 
 ## Known limits
 
-- A handful of Idle Hours' themes show the time as a clock (vhs, platform, cardcatalog, bakelite, reactornight, synoptic), so `random` leaves them out. A theme that starts drawing the time in a new Idle Hours release also stays out until it is added to `DECORATIVE_TIME_THEMES` after a look.
+- A handful of Idle Hours' themes show the time as a clock (vhs, platform, cardcatalog, bakelite, reactornight, synoptic, and the diags debug theme), so `random` leaves them out. A theme that starts drawing the time in a new Idle Hours release also stays out until it is added to `DECORATIVE_TIME_THEMES` after a look.
 - A few themes print "Idle Hours" as a maker's mark (astrarium's masthead, circuit's silkscreen, sampler's quiet-hours frame). They stay in the rotation.
 - Titles come from Gutenberg headers as they are, subtitles included.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The quotes are from Project Gutenberg texts in the public domain in the United States; the themes and fonts are Idle Hours', under its own licence.
