@@ -1,4 +1,4 @@
-# Idle Weather
+![Idle Weather: the wordmark over a rule and a red square, beside a rendered panel quoting The Lost World, "a thin, cold rain is falling", with the weather phrase in bold](docs/images/banner.png)
 
 [![CI](https://github.com/gkoch02/IdleWeather/actions/workflows/ci.yml/badge.svg)](https://github.com/gkoch02/IdleWeather/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/gkoch02/IdleWeather/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/gkoch02/IdleWeather/actions/workflows/github-code-scanning/codeql)
@@ -6,8 +6,6 @@
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com)
 [![Idle Hours](https://img.shields.io/badge/needs-Idle%20Hours-8a5a2b)](https://github.com/gkoch02/IdleHours)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-
-![Idle Weather: the wordmark over a rule and a red square, beside a rendered panel quoting The Lost World, "a thin, cold rain is falling", with the weather phrase in bold](docs/images/banner.png)
 
 Idle Weather is [Idle Hours](https://github.com/gkoch02/IdleHours) for the sky outside: it reads the current weather from Open-Meteo and shows a sentence from a public-domain novel that describes it, with the weather phrase picked out in bold. It renders through Idle Hours' themes onto the same 800×480 Inky Impression Spectra 6 panel.
 
