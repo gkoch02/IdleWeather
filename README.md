@@ -11,6 +11,8 @@ Idle Weather is [Idle Hours](https://github.com/gkoch02/IdleHours) for the sky o
 
 ![Four Idle Weather renders: heavy rain in newsprint, snow in dark, fog in sampler, a clear night in firmament](docs/images/preview.png)
 
+New to the code? [`docs/CODE_TOUR.md`](docs/CODE_TOUR.md) follows one rainy morning from Open-Meteo to the panel, file by file, and [`MAINTAINING.md`](MAINTAINING.md) covers running a panel day to day: health checks, settings, updates, backups and rebuilding a Pi.
+
 ## How it works
 
 1. **Mine.** [`mine.py`](idle_weather/mine.py) reads Project Gutenberg books paragraph by paragraph and looks for weather phrases ([`phrases.py`](idle_weather/phrases.py)): "the rain was falling", "a hard frost", "the wind howled", not bare keywords. It skips verse, names ("Mrs. Gale"), similes ("like a flash of lightning") and other figures of speech. Each hit is cut into a display excerpt by Idle Hours' cleaner and scored by its quality filter, plus a bonus for other weather words and outdoor scenery and a penalty for bare-noun matches.

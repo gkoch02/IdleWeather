@@ -10,6 +10,8 @@ Idle Weather shows the current weather as a sentence from a public-domain novel 
 |---|---|
 | Pipeline overview, install, CLI, config, systemd, rebuilding the corpus, known limits | [`README.md`](README.md) |
 | Curation keys, accept/reject reasons, adding more quotes | [`docs/curation.md`](docs/curation.md) |
+| Newcomer's walkthrough of one tick from weather to panel; names functions, so update it when you rename or move one | [`docs/CODE_TOUR.md`](docs/CODE_TOUR.md) |
+| Running a panel day to day (settings, updates, backups, rebuilds) | [`MAINTAINING.md`](MAINTAINING.md) |
 | Branch protection and how to push ruleset changes | [`.github/rulesets/README.md`](.github/rulesets/README.md) |
 | CI jobs and what each one guards | [`.github/workflows/ci.yml`](.github/workflows/ci.yml) |
 
